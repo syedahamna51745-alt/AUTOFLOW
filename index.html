@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <div class="logo">
+            AUTO<span>FLOW</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#fleet">FLEET</a></li>
+            <li><a href="#location">LOCATION</a></li>
+            <li><a href="#pricing">PRICING</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <i data-lucide="search" class="icon"></i>
+            <i data-lucide="user" class="icon"></i>
+
+            <button class="book-btn">
+                Book Now
+            </button>
+            <i data-lucide="menu" class="menu-btn"></i>
+        </div>
+
+    </nav>
+
+
+    <section class="hero" id="home">
+
+        <div class="hero-left" data-aos="fade-right">
+
+            <span class="tag">PREMIUM CAR RENTAL</span>
+
+            <h1>
+                Drive Your Dream Car
+                Anytime, Anywhere
+            </h1>
+
+            <p>
+                Choose from our premium fleet of luxury, sports and family vehicles
+                with affordable prices and instant booking.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="btn-primary">Book Now</button>
+                <button class="btn-secondary">Explore Fleet</button>
+            </div>
+
+        </div>
+
+        <div class="hero-right" data-aos="fade-left">
+            <model-viewer src="lamborghini_aventador_svj_-_sc20_carbon_edition.glb" alt="3D Car" auto-rotate
+                camera-controls shadow-intensity="1" exposure="1.2" disable-zoom>
+            </model-viewer>
+            <div class="glow"></div>
+        </div>
+
+    </section>
+
+<section class="about" id="about" data-aos="fade-up">
+        <div class="about-left" data-aos="fade-right" data-aos-delay="100">
+            <img src="car.png" alt="">
+        </div>
+
+        <div class="about-right" data-aos="fade-left" data-aos-delay="100">
+            <span class="section-tag">ABOUT AUTOFLOW</span>
+
+            <h2>Luxury Driving Experience Redefined</h2>
+
+            <p>
+                AutoFlow offers premium vehicles for every journey.
+                From exotic supercars to luxury sedans, we provide
+                an unmatched driving experience with instant booking
+                and world-class customer service.
+            </p>
+
+            <div class="about-features">
+                <div>✓ Premium Fleet</div>
+                <div>✓ Instant Booking</div>
+                <div>✓ Fully Insured Cars</div>
+                <div>✓ 24/7 Support</div>
+            </div>
+
+            <button class="btn-primary">
+                Learn More
+            </button>
+
+        </div>
+
+    </section>
+
+    <section class="stats">
+
+        <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="counter" data-target="50000">0</h2>
+            <p>Happy Customers</p>
+        </div>
+
+        <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="counter" data-target="120">0</h2>
+            <p>Premium Cars</p>
+        </div>
+
+        <div class="stat-card" data-aos="fade-up" data-aos-delay="300">
+            <h2 class="counter" data-target="35">0</h2>
+            <p>Locations</p>
+        </div>
+
+        <div class="stat-card" data-aos="fade-up" data-aos-delay="300">
+            <h2 class="counter" data-target="49">0</h2>
+            <p>Customer Rating</p>
+        </div>
+
+    </section>
+
+    <section class="fleet" id="fleet">
+
+        <span class="section-tag">PREMIUM COLLECTION</span>
+
+        <h2>Explore Our Featured Fleet</h2>
+
+        <div class="fleet-grid">
+
+            <div class="fleet-card" data-aos="fade-up" data-aos-delay="100">
+
+                <span class="car-badge">Popular</span>
+
+                <img src="aventador.png" alt="">
+
+                <h3>Lamborghini Aventador</h3>
+
+                <p class="car-type">Super Sports Car</p>
+
+                <div class="car-specs">
+                    <span>⚡ 770 HP</span>
+                    <span>🏎 Auto</span>
+                    <span>👤 2 Seats</span>
+                </div>
+
+
+                <div class="fleet-footer">
+                    <div class="price">
+                        $299 <span>/ Day</span>
+                    </div>
+
+                    <button>Book Now</button>
+                </div>
+
+            </div>
+
+            <div class="fleet-card" data-aos="fade-up" data-aos-delay="200">
+                <span class="car-badge">New</span>
+                <img src="porsche-911.png" alt="">
+                <h3>Porsche 911</h3>
+                <p class="car-type">Sports Coupe</p>
+
+                <div class="car-specs">
+                    <span>⚡ 473 HP</span>
+                    <span>🏎 Auto</span>
+                    <span>👤 4 Seats</span>
+                </div>
+
+                <div class="fleet-footer">
+                    <div class="price">
+                        $249 <span>/ Day</span>
+                    </div>
+
+                    <button>Book Now</button>
+                </div>
+            </div>
+
+            <div class="fleet-card" data-aos="fade-up" data-aos-delay="300">
+                <span class="car-badge">Luxury</span>
+                <img src="amg-gt.png" alt="">
+                <h3>Mercedes AMG GT</h3>
+                <p class="car-type">Luxury Sports Car</p>
+                <div class="car-specs">
+                    <span>⚡ 577 HP</span>
+                    <span>🏎 Auto</span>
+                    <span>👤 2 Seats</span>
+                </div>
+
+                <div class="fleet-footer">
+                    <div class="price">
+                        $279 <span>/ Day</span>
+                    </div>
+
+                    <button>Book Now</button>
+                </div>
+            </div>
+
+            <div class="fleet-card" data-aos="fade-up" data-aos-delay="400">
+                <span class="car-badge">Best Seller</span>
+                <img src="bmw-m4.png" alt="">
+                <h3>BMW M4</h3>
+                <p class="car-type">Performance Coupe</p>
+                <div class="car-specs">
+                    <span>⚡ 503 HP</span>
+                    <span>🏎 Auto</span>
+                    <span>👤 4 Seats</span>
+                </div>
+
+                <div class="fleet-footer">
+                    <div class="price">
+                        $199 <span>/ Day</span>
+                    </div>
+
+                    <button>Book Now</button>
+                </div>
+            </div>
+
+            <div class="fleet-card" data-aos="fade-up" data-aos-delay="500">
+                <span class="car-badge">Luxury</span>
+                <img src="audi-r8.png" alt="">
+                <h3>Audi R8</h3>
+                <p class="car-type">Supercar</p>
+                <div class="car-specs">
+                    <span>⚡ 602 HP</span>
+                    <span>🏎 Auto</span>
+                    <span>👤 2 Seats</span>
+                </div>
+
+                <div class="fleet-footer">
+                    <div class="price">
+                        $289 <span>/ Day</span>
+                    </div>
+
+                    <button>Book Now</button>
+                </div>
+            </div>
+
+            <div class="fleet-card" data-aos="fade-up" data-aos-delay="600">
+                <span class="car-badge">Popular</span>
+                <img src="nissan-gtr.png" alt="">
+                <h3>Nissan GT-R</h3>
+                <p class="car-type">Japanese Legend</p>
+                <div class="car-specs">
+                    <span>⚡ 565 HP</span>
+                    <span>🏎 Auto</span>
+                    <span>👤 4 Seats</span>
+                </div>
+
+                <div class="fleet-footer">
+                    <div class="price">
+                        $219 <span>/ Day</span>
+                    </div>
+
+                    <button>Book Now</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+<section class="locations" id="location" data-aos="zoom-in">
+        <span class="section-tag">OUR LOCATIONS</span>
+
+        <h2>Available Across Premium Locations</h2>
+
+        <p>
+            Pick up your vehicle from our strategically
+            located branches.
+        </p>
+
+        <div class="map-wrapper">
+
+            <img src="map.png" alt="Map">
+
+            <div class="pin pin1">📍 Karachi</div>
+            <div class="pin pin2">📍 DHA</div>
+            <div class="pin pin3">📍 Clifton</div>
+            <div class="pin pin4">📍 Airport</div>
+
+        </div>
+
+    </section>
+
+<section class="pricing" id="pricing" data-aos="fade-up">
+
+        <span class="section-tag">PRICING PLANS</span>
+
+        <h2>Choose Your Perfect Ride</h2>
+
+        <img class="plan-car" src="bmw.png">
+        <div class="pricing-grid">
+
+            <div class="pricing-card" data-aos="flip-left">
+                <h3>Economy</h3>
+                <div class="price">$99<span>/day</span></div>
+
+                <ul>
+                    <li>✓ Standard Cars</li>
+                    <li>✓ Basic Insurance</li>
+                    <li>✓ 24/7 Support</li>
+                    <li>✓ Unlimited Miles</li>
+                </ul>
+
+                <button>Book Now</button>
+            </div>
+
+            <div class="pricing-card featured" data-aos="zoom-in" data-aos-delay="200">
+                <span class="popular-tag">
+                    MOST POPULAR
+                </span>
+
+                <h3>Premium</h3>
+                <div class="price">$199<span>/day</span></div>
+
+                <ul>
+                    <li>✓ Unlimited Mileage</li>
+                    <li>✓ Full Insurance</li>
+                    <li>✓ Priority Support</li>
+                    <li>✓ Luxury Interior</li>
+                </ul>
+
+                <button>Book Now</button>
+            </div>
+
+            <div class="pricing-card" data-aos="flip-right">
+                <h3>Luxury</h3>
+                <div class="price">$299<span>/day</span></div>
+
+                <ul>
+                    <li>✓ Supercars</li>
+                    <li>✓ VIP Service</li>
+                    <li>✓ Chauffeur Option</li>
+                    <li>✓ Premium Insurance</li>
+                </ul>
+
+                <button>Book Now</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="booking" id="contact" data-aos="fade-up">
+
+        <span class="section-tag">BOOK YOUR RIDE</span>
+
+        <h2>Reserve Your Dream Car Today</h2>
+
+        <p>
+            Choose your favorite vehicle and book it instantly.
+
+        </p>
+
+        <form class="booking-form">
+
+            <input type="text" placeholder="Full Name">
+
+            <input type="email" placeholder="Email Address">
+
+            <select>
+                <option>Select Your Car</option>
+                <option>Lamborghini Aventador</option>
+                <option>Porsche 911</option>
+                <option>Mercedes AMG GT</option>
+                <option>BMW M4</option>
+                <option>Audi R8</option>
+                <option>Nissan GT-R</option>
+            </select>
+
+            <input type="date">
+
+            <button type="submit">
+                Book Now
+            </button>
+
+        </form>
+
+    </section>
+
+    <footer class="footer" data-aos="fade-up">
+
+        <div class="footer-top">
+
+            <div class="footer-logo">
+                <h2>AUTO<span>FLOW</span></h2>
+                <p>
+                    Premium car rental experience with luxury,
+                    performance and comfort.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+
+                <a href="#">Home</a>
+                <a href="#">Fleet</a>
+                <a href="#">About</a>
+                <a href="#">Locations</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Support</h3>
+
+                <a href="#">Pricing</a>
+                <a href="#">Book Now</a>
+                <a href="#">Contact</a>
+                <a href="#">FAQ</a>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact</h3>
+
+                <p>📍 Karachi, Pakistan</p>
+                <p>📧 support@autoflow.com</p>
+                <p>📞 +92 300 1234567</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 AutoFlow. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+   <script>
+AOS.init({
+    duration: 1200,
+    once: false,
+    offset: 100
+});
+</script>
+
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js">
+    </script>
+
+    <script src="main.js"></script>
+
+</html>
